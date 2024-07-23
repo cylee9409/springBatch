@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 21
+Specification-Title: SZRbatch
+Specification-Version: 0.0
+Implementation-Title: SZRbatch
+Implementation-Version: 0.0.1-SNAPSHOT
+Main-Class: tmoney.szr.SZRBatchApplication
+Created-By: Maven Integration for Eclipse
+

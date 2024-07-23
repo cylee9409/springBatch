@@ -1,0 +1,7 @@
+tmoney\szr\service\ChunkService.class
+tmoney\szr\job\SeparateTaskletSampleJob.class
+tmoney\szr\SZRBatchApplication.class
+tmoney\szr\job\TaskletSampleJob.class
+tmoney\szr\step\tasklet\ChunkTasklet.class
+tmoney\szr\step\listener\SZRBatchJobListener.class
+tmoney\szr\step\tasklet\SampleTasklet.class

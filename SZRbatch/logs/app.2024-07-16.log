@@ -1,0 +1,360 @@
+2024-07-16 10:22:24.099 [main] INFO  tmoney.szr.SZRBatchApplication - Starting SZRBatchApplication using Java 1.8.0_202 on DESKTOP-COBV8OJ with PID 4904 (C:\Users\이채영\Desktop\workspace\SZRbatch\target\classes started by 이채영 in C:\Users\이채영\Desktop\workspace\SZRbatch)
+2024-07-16 10:22:24.101 [main] INFO  tmoney.szr.SZRBatchApplication - The following 1 profile is active: "local"
+2024-07-16 10:22:24.685 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+2024-07-16 10:22:24.687 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-07-16 10:22:24.693 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-07-16 10:22:24.693 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 10:22:24.693 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-07-16 10:22:24.693 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-07-16 10:22:24.693 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application-local.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 10:22:24.894 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-07-16 10:22:24.901 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-07-16 10:22:24.903 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-07-16 10:22:25.250 [main] INFO  tmoney.szr.SZRBatchApplication - Started SZRBatchApplication in 1.669 seconds (JVM running for 2.411)
+2024-07-16 10:22:25.252 [main] INFO  o.s.b.a.b.JobLauncherApplicationRunner - Running default command line with: []
+2024-07-16 10:22:25.254 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer - No datasource was provided...using a Map based JobRepository
+2024-07-16 10:22:25.255 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer - No transaction manager was provided, using a ResourcelessTransactionManager
+2024-07-16 10:22:25.269 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+2024-07-16 10:22:25.297 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [SimpleJob: [name=tasklet_sample_job]] launched with the following parameters: [{run.id=1}]
+2024-07-16 10:22:25.335 [main] INFO  o.s.batch.core.job.SimpleStepHandler - Executing step: [tasklet_sample_job_step]
+2024-07-16 10:22:25.344 [main] INFO  tmoney.szr.job.TaskletSampleJob - >>>>>>> This is Step1
+2024-07-16 10:22:25.351 [main] INFO  o.s.batch.core.step.AbstractStep - Step: [tasklet_sample_job_step] executed in 16ms
+2024-07-16 10:22:25.358 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [SimpleJob: [name=tasklet_sample_job]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 41ms
+2024-07-16 10:24:13.680 [main] INFO  tmoney.szr.SZRBatchApplication - Starting SZRBatchApplication using Java 1.8.0_202 on DESKTOP-COBV8OJ with PID 6972 (C:\Users\이채영\Desktop\workspace\SZRbatch\target\classes started by 이채영 in C:\Users\이채영\Desktop\workspace\SZRbatch)
+2024-07-16 10:24:13.683 [main] INFO  tmoney.szr.SZRBatchApplication - The following 1 profile is active: "local"
+2024-07-16 10:24:14.245 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+2024-07-16 10:24:14.246 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-07-16 10:24:14.249 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-07-16 10:24:14.249 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 10:24:14.250 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-07-16 10:24:14.250 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-07-16 10:24:14.250 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application-local.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 10:24:14.410 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-07-16 10:24:14.418 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-07-16 10:24:14.421 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-07-16 10:24:14.769 [main] INFO  tmoney.szr.SZRBatchApplication - Started SZRBatchApplication in 1.637 seconds (JVM running for 2.402)
+2024-07-16 10:24:14.770 [main] INFO  o.s.b.a.b.JobLauncherApplicationRunner - Running default command line with: []
+2024-07-16 10:24:14.772 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer - No datasource was provided...using a Map based JobRepository
+2024-07-16 10:24:14.773 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer - No transaction manager was provided, using a ResourcelessTransactionManager
+2024-07-16 10:24:14.788 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+2024-07-16 10:24:14.815 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [SimpleJob: [name=tasklet_sample_job]] launched with the following parameters: [{run.id=1}]
+2024-07-16 10:24:14.851 [main] INFO  o.s.batch.core.job.SimpleStepHandler - Executing step: [tasklet_sample_job_step]
+2024-07-16 10:24:14.860 [main] INFO  tmoney.szr.job.TaskletSampleJob - >>>>>>> This is Step1
+2024-07-16 10:24:14.868 [main] INFO  o.s.batch.core.step.AbstractStep - Step: [tasklet_sample_job_step] executed in 16ms
+2024-07-16 10:24:14.874 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [SimpleJob: [name=tasklet_sample_job]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 38ms
+2024-07-16 10:36:12.632 [main] INFO  tmoney.szr.SZRBatchApplication - Starting SZRBatchApplication using Java 1.8.0_202 on DESKTOP-COBV8OJ with PID 14256 (C:\Users\이채영\Desktop\workspace\SZRbatch\target\classes started by 이채영 in C:\Users\이채영\Desktop\workspace\SZRbatch)
+2024-07-16 10:36:12.635 [main] INFO  tmoney.szr.SZRBatchApplication - The following 1 profile is active: "local"
+2024-07-16 10:36:13.202 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+2024-07-16 10:36:13.204 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-07-16 10:36:13.206 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-07-16 10:36:13.207 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 10:36:13.207 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-07-16 10:36:13.207 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-07-16 10:36:13.207 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application-local.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 10:36:13.290 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'taskletSampleJob' defined in file [C:\Users\이채영\Desktop\workspace\SZRbatch\target\classes\tmoney\szr\job\TaskletSampleJob.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [tmoney.szr.job.TaskletSampleJob$$EnhancerBySpringCGLIB$$bbdc55b6]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	log cannot be resolved
+
+2024-07-16 10:36:13.299 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-07-16 10:36:13.326 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'taskletSampleJob' defined in file [C:\Users\이채영\Desktop\workspace\SZRbatch\target\classes\tmoney\szr\job\TaskletSampleJob.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [tmoney.szr.job.TaskletSampleJob$$EnhancerBySpringCGLIB$$bbdc55b6]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	log cannot be resolved
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at tmoney.szr.SZRBatchApplication.main(SZRBatchApplication.java:13)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [tmoney.szr.job.TaskletSampleJob$$EnhancerBySpringCGLIB$$bbdc55b6]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	log cannot be resolved
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326)
+	... 16 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	log cannot be resolved
+
+	at tmoney.szr.job.TaskletSampleJob.<init>(TaskletSampleJob.java:40)
+	at tmoney.szr.job.TaskletSampleJob$$EnhancerBySpringCGLIB$$bbdc55b6.<init>(<generated>)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 18 common frames omitted
+2024-07-16 10:38:17.491 [main] INFO  tmoney.szr.SZRBatchApplication - Starting SZRBatchApplication using Java 1.8.0_202 on DESKTOP-COBV8OJ with PID 14884 (C:\Users\이채영\Desktop\workspace\SZRbatch\target\classes started by 이채영 in C:\Users\이채영\Desktop\workspace\SZRbatch)
+2024-07-16 10:38:17.494 [main] INFO  tmoney.szr.SZRBatchApplication - The following 1 profile is active: "local"
+2024-07-16 10:38:18.248 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+2024-07-16 10:38:18.249 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-07-16 10:38:18.253 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-07-16 10:38:18.253 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 10:38:18.254 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-07-16 10:38:18.254 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-07-16 10:38:18.254 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application-local.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 10:38:18.344 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'taskletSampleJob' defined in file [C:\Users\이채영\Desktop\workspace\SZRbatch\target\classes\tmoney\szr\job\TaskletSampleJob.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [tmoney.szr.job.TaskletSampleJob$$EnhancerBySpringCGLIB$$7f25a162]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	log cannot be resolved
+
+2024-07-16 10:38:18.355 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-07-16 10:38:18.380 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'taskletSampleJob' defined in file [C:\Users\이채영\Desktop\workspace\SZRbatch\target\classes\tmoney\szr\job\TaskletSampleJob.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [tmoney.szr.job.TaskletSampleJob$$EnhancerBySpringCGLIB$$7f25a162]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	log cannot be resolved
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at tmoney.szr.SZRBatchApplication.main(SZRBatchApplication.java:13)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [tmoney.szr.job.TaskletSampleJob$$EnhancerBySpringCGLIB$$7f25a162]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	log cannot be resolved
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326)
+	... 16 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	log cannot be resolved
+
+	at tmoney.szr.job.TaskletSampleJob.<init>(TaskletSampleJob.java:40)
+	at tmoney.szr.job.TaskletSampleJob$$EnhancerBySpringCGLIB$$7f25a162.<init>(<generated>)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 18 common frames omitted
+2024-07-16 10:38:47.508 [main] INFO  tmoney.szr.SZRBatchApplication - Starting SZRBatchApplication using Java 1.8.0_202 on DESKTOP-COBV8OJ with PID 11228 (C:\Users\이채영\Desktop\workspace\SZRbatch\target\classes started by 이채영 in C:\Users\이채영\Desktop\workspace\SZRbatch)
+2024-07-16 10:38:47.512 [main] INFO  tmoney.szr.SZRBatchApplication - The following 1 profile is active: "local"
+2024-07-16 10:38:48.088 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+2024-07-16 10:38:48.089 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-07-16 10:38:48.092 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-07-16 10:38:48.092 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 10:38:48.092 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-07-16 10:38:48.093 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-07-16 10:38:48.093 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application-local.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 10:38:48.267 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-07-16 10:38:48.275 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-07-16 10:38:48.278 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-07-16 10:38:48.634 [main] INFO  tmoney.szr.SZRBatchApplication - Started SZRBatchApplication in 1.63 seconds (JVM running for 2.366)
+2024-07-16 10:38:48.637 [main] INFO  o.s.b.a.b.JobLauncherApplicationRunner - Running default command line with: []
+2024-07-16 10:38:48.639 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer - No datasource was provided...using a Map based JobRepository
+2024-07-16 10:38:48.640 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer - No transaction manager was provided, using a ResourcelessTransactionManager
+2024-07-16 10:38:48.657 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+2024-07-16 10:38:48.688 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [SimpleJob: [name=tasklet_sample_job]] launched with the following parameters: [{run.id=1}]
+2024-07-16 10:38:48.728 [main] INFO  o.s.batch.core.job.SimpleStepHandler - Executing step: [tasklet_sample_job_step]
+2024-07-16 10:38:48.738 [main] INFO  tmoney.szr.job.TaskletSampleJob - >>>>>>> This is Step1
+2024-07-16 10:38:48.746 [main] INFO  o.s.batch.core.step.AbstractStep - Step: [tasklet_sample_job_step] executed in 18ms
+2024-07-16 10:38:48.753 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [SimpleJob: [name=tasklet_sample_job]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 42ms
+2024-07-16 10:44:34.509 [main] INFO  tmoney.szr.SZRBatchApplication - Starting SZRBatchApplication using Java 1.8.0_202 on DESKTOP-COBV8OJ with PID 14276 (C:\Users\이채영\Desktop\workspace\SZRbatch\target\classes started by 이채영 in C:\Users\이채영\Desktop\workspace\SZRbatch)
+2024-07-16 10:44:34.512 [main] INFO  tmoney.szr.SZRBatchApplication - The following 1 profile is active: "local"
+2024-07-16 10:44:35.086 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+2024-07-16 10:44:35.087 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-07-16 10:44:35.089 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-07-16 10:44:35.090 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 10:44:35.090 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-07-16 10:44:35.090 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-07-16 10:44:35.090 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application-local.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 10:44:35.287 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-07-16 10:44:35.294 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-07-16 10:44:35.298 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-07-16 10:44:35.668 [main] INFO  tmoney.szr.SZRBatchApplication - Started SZRBatchApplication in 1.688 seconds (JVM running for 2.517)
+2024-07-16 10:44:35.670 [main] INFO  o.s.b.a.b.JobLauncherApplicationRunner - Running default command line with: []
+2024-07-16 10:44:35.672 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer - No datasource was provided...using a Map based JobRepository
+2024-07-16 10:44:35.672 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer - No transaction manager was provided, using a ResourcelessTransactionManager
+2024-07-16 10:44:35.687 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+2024-07-16 10:44:35.713 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [SimpleJob: [name=separate_tasklet_sample_job]] launched with the following parameters: [{run.id=1}]
+2024-07-16 10:44:35.750 [main] INFO  o.s.batch.core.job.SimpleStepHandler - Executing step: [separate_tasklet_sample_job_step]
+2024-07-16 10:44:35.766 [main] INFO  t.szr.step.tasklet.SampleTasklet - >>>>>>> SampleTasklet
+2024-07-16 10:44:35.773 [main] INFO  o.s.batch.core.step.AbstractStep - Step: [separate_tasklet_sample_job_step] executed in 23ms
+2024-07-16 10:44:35.781 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [SimpleJob: [name=separate_tasklet_sample_job]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 45ms
+2024-07-16 11:50:44.112 [main] INFO  tmoney.szr.SZRBatchApplication - Starting SZRBatchApplication using Java 1.8.0_202 on DESKTOP-COBV8OJ with PID 11448 (C:\Users\이채영\Desktop\workspace\SZRbatch\target\classes started by 이채영 in C:\Users\이채영\Desktop\workspace\SZRbatch)
+2024-07-16 11:50:44.116 [main] INFO  tmoney.szr.SZRBatchApplication - The following 1 profile is active: "local"
+2024-07-16 11:50:44.779 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+2024-07-16 11:50:44.780 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-07-16 11:50:44.782 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-07-16 11:50:44.784 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 11:50:44.784 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-07-16 11:50:44.784 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-07-16 11:50:44.784 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application-local.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 11:50:44.992 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-07-16 11:50:45.000 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-07-16 11:50:45.003 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-07-16 11:50:45.367 [main] INFO  tmoney.szr.SZRBatchApplication - Started SZRBatchApplication in 1.886 seconds (JVM running for 3.071)
+2024-07-16 11:50:45.369 [main] INFO  o.s.b.a.b.JobLauncherApplicationRunner - Running default command line with: [TEST_CD=A]
+2024-07-16 11:50:45.372 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer - No datasource was provided...using a Map based JobRepository
+2024-07-16 11:50:45.372 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer - No transaction manager was provided, using a ResourcelessTransactionManager
+2024-07-16 11:50:45.387 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+2024-07-16 11:50:45.416 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [SimpleJob: [name=separate_tasklet_sample_job]] launched with the following parameters: [{run.id=1, TEST_CD=A}]
+2024-07-16 11:50:45.456 [main] INFO  o.s.batch.core.job.SimpleStepHandler - Executing step: [separate_tasklet_sample_job_step]
+2024-07-16 11:50:45.476 [main] INFO  t.szr.step.tasklet.SampleTasklet - >>>>>>> SampleTasklet
+2024-07-16 11:50:45.483 [main] INFO  o.s.batch.core.step.AbstractStep - Step: [separate_tasklet_sample_job_step] executed in 25ms
+2024-07-16 11:50:45.490 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [SimpleJob: [name=separate_tasklet_sample_job]] completed with the following parameters: [{run.id=1, TEST_CD=A}] and the following status: [COMPLETED] in 50ms
+2024-07-16 11:51:05.868 [main] INFO  tmoney.szr.SZRBatchApplication - Starting SZRBatchApplication using Java 1.8.0_202 on DESKTOP-COBV8OJ with PID 3516 (C:\Users\이채영\Desktop\workspace\SZRbatch\target\classes started by 이채영 in C:\Users\이채영\Desktop\workspace\SZRbatch)
+2024-07-16 11:51:05.871 [main] INFO  tmoney.szr.SZRBatchApplication - The following 1 profile is active: "local"
+2024-07-16 11:51:06.444 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+2024-07-16 11:51:06.446 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-07-16 11:51:06.448 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-07-16 11:51:06.449 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 11:51:06.449 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-07-16 11:51:06.449 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-07-16 11:51:06.449 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application-local.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 11:51:06.649 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-07-16 11:51:06.656 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-07-16 11:51:06.660 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-07-16 11:51:06.997 [main] INFO  tmoney.szr.SZRBatchApplication - Started SZRBatchApplication in 1.657 seconds (JVM running for 2.441)
+2024-07-16 11:51:06.999 [main] INFO  o.s.b.a.b.JobLauncherApplicationRunner - Running default command line with: [TEST_CD=A]
+2024-07-16 11:51:07.002 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer - No datasource was provided...using a Map based JobRepository
+2024-07-16 11:51:07.002 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer - No transaction manager was provided, using a ResourcelessTransactionManager
+2024-07-16 11:51:07.018 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+2024-07-16 11:51:07.045 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [SimpleJob: [name=separate_tasklet_sample_job]] launched with the following parameters: [{run.id=1, TEST_CD=A}]
+2024-07-16 11:51:07.081 [main] INFO  o.s.batch.core.job.SimpleStepHandler - Executing step: [separate_tasklet_sample_job_step]
+2024-07-16 11:51:07.096 [main] INFO  t.szr.step.tasklet.SampleTasklet - >>>>>>> SampleTasklet
+2024-07-16 11:51:07.104 [main] INFO  o.s.batch.core.step.AbstractStep - Step: [separate_tasklet_sample_job_step] executed in 23ms
+2024-07-16 11:51:07.110 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [SimpleJob: [name=separate_tasklet_sample_job]] completed with the following parameters: [{run.id=1, TEST_CD=A}] and the following status: [COMPLETED] in 45ms
+2024-07-16 11:51:48.045 [main] INFO  tmoney.szr.SZRBatchApplication - Starting SZRBatchApplication using Java 1.8.0_202 on DESKTOP-COBV8OJ with PID 10536 (C:\Users\이채영\Desktop\workspace\SZRbatch\target\classes started by 이채영 in C:\Users\이채영\Desktop\workspace\SZRbatch)
+2024-07-16 11:51:48.047 [main] INFO  tmoney.szr.SZRBatchApplication - The following 1 profile is active: "local"
+2024-07-16 11:51:48.728 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+2024-07-16 11:51:48.729 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-07-16 11:51:48.733 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-07-16 11:51:48.734 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 11:51:48.735 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-07-16 11:51:48.735 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-07-16 11:51:48.735 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application-local.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 11:51:48.971 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-07-16 11:51:48.980 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-07-16 11:51:48.983 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-07-16 11:51:49.329 [main] INFO  tmoney.szr.SZRBatchApplication - Started SZRBatchApplication in 1.792 seconds (JVM running for 2.522)
+2024-07-16 11:51:49.331 [main] INFO  o.s.b.a.b.JobLauncherApplicationRunner - Running default command line with: [TEST_CD=A]
+2024-07-16 11:51:49.334 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer - No datasource was provided...using a Map based JobRepository
+2024-07-16 11:51:49.334 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer - No transaction manager was provided, using a ResourcelessTransactionManager
+2024-07-16 11:51:49.354 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+2024-07-16 11:51:49.384 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [SimpleJob: [name=separate_tasklet_sample_job]] launched with the following parameters: [{run.id=1, TEST_CD=A}]
+2024-07-16 11:51:49.426 [main] INFO  o.s.batch.core.job.SimpleStepHandler - Executing step: [separate_tasklet_sample_job_step]
+2024-07-16 11:51:49.443 [main] INFO  t.szr.step.tasklet.SampleTasklet - >>>>>>> SampleTasklet
+2024-07-16 11:51:49.452 [main] INFO  o.s.batch.core.step.AbstractStep - Step: [separate_tasklet_sample_job_step] executed in 25ms
+2024-07-16 11:51:49.458 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [SimpleJob: [name=separate_tasklet_sample_job]] completed with the following parameters: [{run.id=1, TEST_CD=A}] and the following status: [COMPLETED] in 48ms
+2024-07-16 11:52:49.119 [main] INFO  tmoney.szr.SZRBatchApplication - Starting SZRBatchApplication using Java 1.8.0_202 on DESKTOP-COBV8OJ with PID 6124 (C:\Users\이채영\Desktop\workspace\SZRbatch\target\classes started by 이채영 in C:\Users\이채영\Desktop\workspace\SZRbatch)
+2024-07-16 11:52:49.130 [main] INFO  tmoney.szr.SZRBatchApplication - The following 1 profile is active: "local"
+2024-07-16 11:52:49.751 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+2024-07-16 11:52:49.752 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-07-16 11:52:49.755 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-07-16 11:52:49.756 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 11:52:49.757 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-07-16 11:52:49.757 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-07-16 11:52:49.757 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application-local.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 11:52:49.968 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-07-16 11:52:49.976 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-07-16 11:52:49.978 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-07-16 11:52:50.338 [main] INFO  tmoney.szr.SZRBatchApplication - Started SZRBatchApplication in 1.792 seconds (JVM running for 2.678)
+2024-07-16 11:52:50.340 [main] INFO  o.s.b.a.b.JobLauncherApplicationRunner - Running default command line with: [TEST_CD=A]
+2024-07-16 11:52:50.343 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer - No datasource was provided...using a Map based JobRepository
+2024-07-16 11:52:50.343 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer - No transaction manager was provided, using a ResourcelessTransactionManager
+2024-07-16 11:52:50.359 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+2024-07-16 11:52:50.386 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [SimpleJob: [name=separate_tasklet_sample_job]] launched with the following parameters: [{run.id=1, TEST_CD=A}]
+2024-07-16 11:52:50.430 [main] INFO  o.s.batch.core.job.SimpleStepHandler - Executing step: [separate_tasklet_sample_job_step]
+2024-07-16 11:52:50.445 [main] INFO  t.szr.step.tasklet.SampleTasklet - >>>>>>> SampleTasklet
+2024-07-16 11:52:50.452 [main] INFO  o.s.batch.core.step.AbstractStep - Step: [separate_tasklet_sample_job_step] executed in 22ms
+2024-07-16 11:52:50.461 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [SimpleJob: [name=separate_tasklet_sample_job]] completed with the following parameters: [{run.id=1, TEST_CD=A}] and the following status: [COMPLETED] in 51ms
+2024-07-16 11:54:36.705 [main] INFO  tmoney.szr.SZRBatchApplication - Starting SZRBatchApplication using Java 1.8.0_202 on DESKTOP-COBV8OJ with PID 9584 (C:\Users\이채영\Desktop\workspace\SZRbatch\target\classes started by 이채영 in C:\Users\이채영\Desktop\workspace\SZRbatch)
+2024-07-16 11:54:36.708 [main] INFO  tmoney.szr.SZRBatchApplication - The following 1 profile is active: "local"
+2024-07-16 11:54:37.299 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+2024-07-16 11:54:37.300 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-07-16 11:54:37.302 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-07-16 11:54:37.303 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 11:54:37.303 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-07-16 11:54:37.303 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-07-16 11:54:37.303 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application-local.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 11:54:37.506 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-07-16 11:54:37.514 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-07-16 11:54:37.517 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-07-16 11:54:37.853 [main] INFO  tmoney.szr.SZRBatchApplication - Started SZRBatchApplication in 1.66 seconds (JVM running for 2.384)
+2024-07-16 11:54:37.856 [main] INFO  o.s.b.a.b.JobLauncherApplicationRunner - Running default command line with: [TEST_CD=A]
+2024-07-16 11:54:37.859 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer - No datasource was provided...using a Map based JobRepository
+2024-07-16 11:54:37.859 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer - No transaction manager was provided, using a ResourcelessTransactionManager
+2024-07-16 11:54:37.873 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+2024-07-16 11:54:37.900 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [SimpleJob: [name=separate_tasklet_sample_job]] launched with the following parameters: [{run.id=1, TEST_CD=A}]
+2024-07-16 11:54:37.923 [main] INFO  t.s.s.listener.SZRBatchJobListener - separate_tasklet_sample_job
+2024-07-16 11:54:37.923 [main] INFO  t.s.s.listener.SZRBatchJobListener - run.id = 1
+2024-07-16 11:54:37.923 [main] INFO  t.s.s.listener.SZRBatchJobListener - TEST_CD = A
+2024-07-16 11:54:37.938 [main] INFO  o.s.batch.core.job.SimpleStepHandler - Executing step: [separate_tasklet_sample_job_step]
+2024-07-16 11:54:37.952 [main] INFO  t.szr.step.tasklet.SampleTasklet - >>>>>>> SampleTasklet
+2024-07-16 11:54:37.958 [main] INFO  o.s.batch.core.step.AbstractStep - Step: [separate_tasklet_sample_job_step] executed in 20ms
+2024-07-16 11:54:37.966 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [SimpleJob: [name=separate_tasklet_sample_job]] completed with the following parameters: [{run.id=1, TEST_CD=A}] and the following status: [COMPLETED] in 44ms
+2024-07-16 11:54:59.384 [main] INFO  tmoney.szr.SZRBatchApplication - Starting SZRBatchApplication using Java 1.8.0_202 on DESKTOP-COBV8OJ with PID 2500 (C:\Users\이채영\Desktop\workspace\SZRbatch\target\classes started by 이채영 in C:\Users\이채영\Desktop\workspace\SZRbatch)
+2024-07-16 11:54:59.387 [main] INFO  tmoney.szr.SZRBatchApplication - The following 1 profile is active: "local"
+2024-07-16 11:55:00.058 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+2024-07-16 11:55:00.060 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-07-16 11:55:00.063 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-07-16 11:55:00.063 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 11:55:00.064 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-07-16 11:55:00.064 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-07-16 11:55:00.064 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application-local.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 11:55:00.272 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-07-16 11:55:00.280 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-07-16 11:55:00.283 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-07-16 11:55:00.632 [main] INFO  tmoney.szr.SZRBatchApplication - Started SZRBatchApplication in 1.822 seconds (JVM running for 2.643)
+2024-07-16 11:55:00.634 [main] INFO  o.s.b.a.b.JobLauncherApplicationRunner - Running default command line with: [TEST_CD=A]
+2024-07-16 11:55:00.637 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer - No datasource was provided...using a Map based JobRepository
+2024-07-16 11:55:00.637 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer - No transaction manager was provided, using a ResourcelessTransactionManager
+2024-07-16 11:55:00.653 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+2024-07-16 11:55:00.682 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [SimpleJob: [name=separate_tasklet_sample_job]] launched with the following parameters: [{run.id=1, TEST_CD=A}]
+2024-07-16 11:55:00.707 [main] INFO  t.s.s.listener.SZRBatchJobListener - separate_tasklet_sample_job
+2024-07-16 11:55:00.708 [main] INFO  t.s.s.listener.SZRBatchJobListener - run.id = 1
+2024-07-16 11:55:00.708 [main] INFO  t.s.s.listener.SZRBatchJobListener - TEST_CD = A
+2024-07-16 11:55:00.725 [main] INFO  o.s.batch.core.job.SimpleStepHandler - Executing step: [separate_tasklet_sample_job_step]
+2024-07-16 11:55:00.741 [main] INFO  t.szr.step.tasklet.SampleTasklet - >>>>>>> SampleTasklet
+2024-07-16 11:55:00.748 [main] INFO  o.s.batch.core.step.AbstractStep - Step: [separate_tasklet_sample_job_step] executed in 23ms
+2024-07-16 11:55:00.754 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [SimpleJob: [name=separate_tasklet_sample_job]] completed with the following parameters: [{run.id=1, TEST_CD=A}] and the following status: [COMPLETED] in 50ms
+2024-07-16 11:56:18.205 [main] INFO  tmoney.szr.SZRBatchApplication - Starting SZRBatchApplication using Java 1.8.0_202 on DESKTOP-COBV8OJ with PID 3692 (C:\Users\이채영\Desktop\workspace\SZRbatch\target\classes started by 이채영 in C:\Users\이채영\Desktop\workspace\SZRbatch)
+2024-07-16 11:56:18.207 [main] INFO  tmoney.szr.SZRBatchApplication - The following 1 profile is active: "local"
+2024-07-16 11:56:18.816 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+2024-07-16 11:56:18.817 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2024-07-16 11:56:18.821 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-07-16 11:56:18.821 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 11:56:18.822 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2024-07-16 11:56:18.822 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-07-16 11:56:18.822 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application-local.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-07-16 11:56:19.011 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2024-07-16 11:56:19.020 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-07-16 11:56:19.023 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-07-16 11:56:19.359 [main] INFO  tmoney.szr.SZRBatchApplication - Started SZRBatchApplication in 1.731 seconds (JVM running for 2.487)
+2024-07-16 11:56:19.361 [main] INFO  o.s.b.a.b.JobLauncherApplicationRunner - Running default command line with: [TEST_CD=A]
+2024-07-16 11:56:19.364 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer - No datasource was provided...using a Map based JobRepository
+2024-07-16 11:56:19.365 [main] WARN  o.s.b.c.c.a.DefaultBatchConfigurer - No transaction manager was provided, using a ResourcelessTransactionManager
+2024-07-16 11:56:19.381 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - No TaskExecutor has been set, defaulting to synchronous executor.
+2024-07-16 11:56:19.411 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [SimpleJob: [name=separate_tasklet_sample_job]] launched with the following parameters: [{run.id=1, TEST_CD=A}]
+2024-07-16 11:56:19.433 [main] INFO  t.s.s.listener.SZRBatchJobListener - Before Job Execution
+2024-07-16 11:56:19.433 [main] INFO  t.s.s.listener.SZRBatchJobListener - JOB NAME : separate_tasklet_sample_job
+2024-07-16 11:56:19.433 [main] INFO  t.s.s.listener.SZRBatchJobListener - JOB PARAMETER : run.id = 1
+2024-07-16 11:56:19.434 [main] INFO  t.s.s.listener.SZRBatchJobListener - JOB PARAMETER : TEST_CD = A
+2024-07-16 11:56:19.449 [main] INFO  o.s.batch.core.job.SimpleStepHandler - Executing step: [separate_tasklet_sample_job_step]
+2024-07-16 11:56:19.464 [main] INFO  t.szr.step.tasklet.SampleTasklet - >>>>>>> SampleTasklet
+2024-07-16 11:56:19.472 [main] INFO  o.s.batch.core.step.AbstractStep - Step: [separate_tasklet_sample_job_step] executed in 23ms
+2024-07-16 11:56:19.478 [main] INFO  o.s.b.c.l.support.SimpleJobLauncher - Job: [SimpleJob: [name=separate_tasklet_sample_job]] completed with the following parameters: [{run.id=1, TEST_CD=A}] and the following status: [COMPLETED] in 47ms

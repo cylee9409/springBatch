@@ -1,0 +1,28 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+    web-application-type: none
+  batch:
+    jdbc:
+      initialize-schema: never
+      isolation-level-for-create: read_committed
+    job:
+      names: ${job.name:NONE}
+  application:
+    name: SZRbatch
+  config:
+    active:
+      on-profile: local
+    import: optional:classpath:config/szr/properties/global_local.properties
+#  datasource:
+#    hikari:
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+#      jdbc-url: jdbc:mysql://localhost:3306/yourdatabase
+#      username: yourusername
+#      password: yourpassword
+#      connection-test-query: SELECT 1 FROM DUAL
+
+logging:
+  config: classpath:logback-spring.xml
+  file:
+    path: C:/Users/이채영/Desktop/workspace/SZRbatch/logs
